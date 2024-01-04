@@ -1,0 +1,6 @@
+{
+    "scope": "playlist-modify-private playlist-modify-public",
+    "cid": "",
+    "secret": "",
+    "redirectURI": "http://localhost:8888/callback"
+}
