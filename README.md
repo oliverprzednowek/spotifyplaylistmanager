@@ -8,14 +8,14 @@ Follow the instructions for getting started with the spotify api here: https://d
 
 Create a BASIC_INFO.json file in the src folder with the following:
 
-`json
+```json
 {
     "scope": "playlist-modify-private playlist-modify-public",
     "cid": YOUR_CLIENT_ID,
     "secret": YOUR_CLIENT_SECRET,
     "redirectURI": "http://localhost:8888/callback"
 }
-`
+```
 Run `py main.py`. Then, follow instructions in the text-based UI.
 
 
