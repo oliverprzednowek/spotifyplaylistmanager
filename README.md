@@ -2,6 +2,8 @@
 
 Spotify Playlist Manager extends Spotify's limited playlist editing tools to help users manage playlists in their Spotify library, by making API calls through Spotipy 2.0. Currently its main purpose is to remove songs from a given playlist that also appear in other playlists in the user's library through a text-based UI. I hope to implement more features in the future.
 
+Note: Since this program makes calls to the Spotify Web API which require credentials, you need to register it yourself as an app on the Spotify developer dashboard. Instructions below.
+
 ## How to use:
 
 Follow the instructions for getting started with the spotify api here: https://developer.spotify.com/documentation/web-api/tutorials/getting-started
