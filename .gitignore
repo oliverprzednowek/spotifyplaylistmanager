@@ -1,0 +1,9 @@
+#ignore pycache
+src/__pycache__
+
+#ignore spotipy cache
+src/.cache
+
+#ignore BASIC_INFO.json
+src/BASIC_INFO.json
+
