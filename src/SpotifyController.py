@@ -69,4 +69,4 @@ class SpotifyController:
             return
 
         self.__sp.removeSongs(duplicateSongs, removeFrom)
-        ui.printStr("Songs removed")
+        print("Songs removed")

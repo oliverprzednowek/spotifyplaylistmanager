@@ -3,8 +3,9 @@ from SpotifyController import SpotifyController
 
 
 def showMenu() -> int:
+    """show menu and return user's choice"""
     while True:
-        print("Please select from the following options:\n")
+        print("\n\nPlease select from the following options:")
         print("1 -> add a playlist")
         print("2 -> remove duplicates")
         print("3 -> print playlists")

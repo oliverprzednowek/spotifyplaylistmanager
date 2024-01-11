@@ -20,4 +20,3 @@ Create a BASIC_INFO.json file in the src folder with the following:
 ```
 Run `py main.py`. Then, follow instructions in the text-based UI.
 
-TESTING
