@@ -4,7 +4,7 @@ Spotify Playlist Manager extends Spotify's limited playlist editing tools to hel
 
 Note 1: Since this program makes calls to the Spotify Web API which require credentials, you need to register it yourself as an app on the Spotify developer dashboard. Instructions below.
 
-Note 2: This project is still in development, and as such may have some bugs.
+Note 2: This project is still in development, and as such may have bugs.
 
 
 ## How to use:
