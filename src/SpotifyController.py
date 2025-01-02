@@ -1,5 +1,5 @@
 from SpotifyModel import Playlist
-from SpotifyMethods import SpotifyMethods
+from SpotifyMethods import SpotifyConnection
 import FileIO
 import ui
 
@@ -9,7 +9,7 @@ class SpotifyController:
         basicInfo = self.__loadBasicInfo()
         if not basicInfo:
             return
-        self.__sp = SpotifyMethods(basicInfo)
+        self.__sp = SpotifyConnection(basicInfo)
         self.__playlists = self.__loadPlaylists()
 
     def __loadBasicInfo(self):

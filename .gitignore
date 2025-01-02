@@ -7,3 +7,4 @@ src/.cache
 #ignore BASIC_INFO.json
 src/BASIC_INFO.json
 
+activate.sh

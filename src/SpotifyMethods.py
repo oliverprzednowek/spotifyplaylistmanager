@@ -5,7 +5,7 @@ import itertools
 from SpotifyModel import Playlist, Track
 
 
-class SpotifyMethods:
+class SpotifyConnection:
     def __init__(self, basicInfo: dict):
         # initializing the spotify session
         self.sp = spotipy.Spotify(
